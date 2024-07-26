@@ -1,12 +1,11 @@
-
+/* General Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body
- {
+body {
     font-family: sans-serif;
     margin: 0;
     height: 100vh;
@@ -14,7 +13,6 @@ body
     justify-content: center;
     align-items: center;
     background-color: #e0f7fa;
-    
 }
 
 .main {
@@ -25,7 +23,7 @@ body
     align-items: center;
 }
 
-
+/* Navbar */
 .navbar {
     width: 86%;
     display: flex;
@@ -54,8 +52,7 @@ body
     transition: color 0.4s ease;
 }
 
-
-
+/* Info Section */
 .info {
     text-align: center;
     margin: 6% 0 0 0;
@@ -88,7 +85,7 @@ body
     background: rgb(59, 174, 209);
 }
 
-
+/* Box Styles */
 .about-box, .skills-box, .project, .resume-box, .contact {
     text-align: center;
     width: 90%;
@@ -120,14 +117,14 @@ body
     background-color: #f5f5f5;
 }
 
-
+/* Project Section */
 .project img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
 
-
+/* Resume Section */
 .resume-box p {
     font-size: 16px;
     color: #555;
@@ -148,7 +145,7 @@ body
     background: rgb(59, 174, 209);
 }
 
-
+/* Contact Section */
 .contact p, .contact a {
     font-size: 16px;
     color: #555;
@@ -165,3 +162,58 @@ body
 .contact a:hover {
     color: rgb(59, 174, 209);
 }
+
+/* Media Queries */
+
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar {
+        width: 80%;
+    }
+
+    .info h1 {
+        font-size: 56px;
+    }
+
+    .info h2 {
+        font-size: 22px;
+    }
+
+    .info a {
+        padding: 12px 20px;
+    }
+
+    .about-box, .skills-box, .project, .resume-box, .contact {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .navbar {
+        width: 90%;
+    }
+
+    .info h1 {
+        font-size: 44px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info a {
+        padding: 10px 18px;
+    }
+
+    .about-box, .skills-box, .project, .resume-box, .contact {
+        width: 85%;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small screens (mobile devices, less than 768px) */
+@media (max-width: 
