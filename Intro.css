@@ -112,10 +112,10 @@ body {
 }
 
 .skills-box .skill {
-    border: 1px solid rgb(36, 32, 30);
+    border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 
