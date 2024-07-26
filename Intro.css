@@ -140,7 +140,7 @@ body {
     transition: background 0.4s ease;
 }
 
-.resume-link:hover 
+.resume-link:
 {
     background: rgb(59, 174, 209);
 }
