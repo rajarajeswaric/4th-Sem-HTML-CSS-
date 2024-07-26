@@ -13,10 +13,9 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: skyblue; 
+    background-color: #e0f7fa;
+    
 }
-
-
 
 .main {
     width: 100%;
