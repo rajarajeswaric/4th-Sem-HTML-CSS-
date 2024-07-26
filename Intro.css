@@ -38,7 +38,8 @@ body {
     cursor: pointer;
 }
 
-.navbar ul {
+.navbar ul 
+{
     display: flex;
     gap: 16px;
     list-style: none;
