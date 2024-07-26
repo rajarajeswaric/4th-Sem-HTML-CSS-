@@ -163,7 +163,6 @@ body {
 }
 
 
-/* Large screens (desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .navbar {
         width: 80%;
