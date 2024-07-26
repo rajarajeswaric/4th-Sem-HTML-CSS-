@@ -99,7 +99,7 @@ body {
 
 .about-box h2, .skills-box h2, .project h2, .resume-box h2, .contact h2 {
     font-size: 24px;
-    color: rgb(36, 32, 30);
+    color: black;
     margin-bottom: 20px;
 }
 
