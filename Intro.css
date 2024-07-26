@@ -52,7 +52,6 @@ body {
     transition: color 0.4s ease;
 }
 
-/* Info Section */
 .info {
     text-align: center;
     margin: 6% 0 0 0;
@@ -60,20 +59,20 @@ body {
 
 .info h1 {
     font-size: 48px;
-    color: rgb(36, 32, 30);
+    color: black;
     margin: 10px 0;
 }
 
 .info h2 {
     font-size: 18px;
-    color: rgb(36, 32, 30);
+    color: black;
     margin: 10px 0;
 }
 
 .info a {
     text-decoration: none;
     color: #fff;
-    background: rgb(36, 32, 30);
+    background: black;
     margin: 26px 0;
     padding: 10px 18px;
     border-radius: 10px;
@@ -92,9 +91,9 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid rgb(36, 32, 30);
+    border: 2px solid black;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
