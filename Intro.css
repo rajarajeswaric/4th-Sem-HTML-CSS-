@@ -24,7 +24,8 @@ body {
 }
 
 
-.navbar {
+.navbar 
+{
     width: 86%;
     display: flex;
     justify-content: space-between;
