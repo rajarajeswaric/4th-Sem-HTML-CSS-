@@ -192,7 +192,6 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25d366;
     color: white;
     border-radius: 50%;
     width: 60px;
@@ -204,9 +203,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.whatsapp-button:hover {
-    background-color: #20b954;
-}
+
 
 .whatsapp-button img {
     width: 30px;
