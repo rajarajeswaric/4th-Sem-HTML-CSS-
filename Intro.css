@@ -203,8 +203,8 @@ body {
     transition: background-color 0.3s ease;
 }
 
-<<<<<<< HEAD
-=======
+
+
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -221,7 +221,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
->>>>>>> b8b5a26f6c8e7f85991314a3088ed587ac66d51c
+
 .whatsapp-button:hover {
     background-color: #20b954;
 }
