@@ -97,10 +97,6 @@ body {
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .about-box h2, .skills-box h2, .project h2, .resume-box h2, .contact h2 {
