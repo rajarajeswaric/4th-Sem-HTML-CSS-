@@ -202,14 +202,10 @@ body {
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
-}
-
-.whatsapp-button:hover {
     background-color: #20b954;
-}
-
-.whatsapp-button img {
     width: 30px;
     height: 30px;
 }
+
+
 
