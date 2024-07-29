@@ -151,7 +151,7 @@ body {
 .contact p, .contact a {
     font-size: 16px;
     color: grey;
-    display: flex;
+    display: block;
     margin: 10px 0;
 }
 
